@@ -8,7 +8,7 @@ function numerosPrimos(n) {
             divisores++;
         }
     }
-    if (divisores = 2) {
+    if (divisores == 2) {
         return "El numero" + n + "es primo";
 
     } else {
@@ -17,3 +17,4 @@ function numerosPrimos(n) {
     }
     
 }
+console.log(numerosPrimos(10))
